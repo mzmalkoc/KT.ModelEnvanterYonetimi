@@ -71,7 +71,7 @@ Sorgu hem Türkçe hem İngilizce olabilir; sistem multilingual embedding sayesi
 │                                                            │
 │  FİNAL SKOR: 0.7 × hybrid + 0.3 × rerank                   │
 │                                                            │
-│  + Self-validation Engine (envanter kalite skorlama)       │
+│  + 3-Skorlu Kalite Sistemi (Açıklama + Bulunabilirlik + Zenginleştirme) │
 │  • Port: 8000                                              │
 └────────────────────────────────────────────────────────────┘
                   ↕
@@ -176,10 +176,10 @@ Frontend açıldığında: http://localhost:3000
 
    Tek kelime jargon — BM25 keyword match olmadan bulunamazdı.
 
-### Senaryo 4: Envanter Sağlığı (Self-Validation)
+### Senaryo 4: Envanter Sağlığı (3-Skorlu Kalite Sistemi)
 1. "Envanter Sağlığı" sekmesi
-2. 30 modelin TR + EN açıklama kaliteleri
-3. Ortalama: 82/100 (Mükemmel: 17, İyi: 12, Geliştirilmeli: 1)
+2. 3 skor kartı: Açıklama Kalitesi (62), Bulunabilirlik (84), Zenginleştirme (63)
+3. 30 model sortable tablo + genişletilebilir detay (issues)
 
 ---
 
@@ -208,7 +208,7 @@ kt.ai/
 │   ├── main.py                    # FastAPI app + lifespan
 │   ├── embeddings.py              # Multi-view encoder + BM25 + cross-encoder
 │   ├── similarity.py              # 3-stage pipeline + score blending
-│   ├── quality.py                 # Self-validation engine
+│   ├── quality.py                 # 3-Skorlu kalite sistemi (8 kriter + AI findability)
 │   ├── schemas.py                 # Pydantic kontratları
 │   ├── ab_test.py                 # A/B test scripti
 │   ├── requirements.txt
@@ -279,8 +279,13 @@ Banka çalışan profilinin gerçeği — hem Türk hem yabancı çalışanlar t
 ### Neden Knowledge Enrichment?
 Her model için sadece kullanıcı amaç metnini değil, **uluslararası standartlar (Basel III, FATF), endüstri terminolojisi (PCI-DSS, FICO) ve eş anlamlı kavramları** da embed ederek bilgi tabanını zenginleştirdik. McKinsey ve Anthropic raporlarında bu yaklaşım **"Knowledge Graph Augmented RAG"** olarak adlandırılır.
 
-### Self-Validation Katmanı
-Sistem sadece kullanıcı talebini değil, **kendi envanterini de** kalite açısından denetler. Garbage in, garbage out prensibiyle envanter kalitesi düştükçe AI eşleştirme doğruluğu da düşer — bu yüzden self-correcting bir katman ekledik.
+### Self-Validation → 3-Skorlu Kalite Sistemi
+Sistem sadece kullanıcı talebini değil, **kendi envanterini de** 3 boyutta denetler:
+- **Açıklama Kalitesi** (8 kriter): metin ne kadar iyi yazılmış?
+- **Bulunabilirlik** (AI-based): model arandığında bulunabilir mi?
+- **Zenginleştirme**: keyword/kaynak/standart yeterli mi?
+
+Garbage in, garbage out — bu 3 boyutlu denetim iyileştirme alanlarını net gösterir.
 
 ### Kaynak Doğrulama
 Envanterdeki 30 modelin açıklamaları rastgele üretilmedi — `KAYNAKLAR.md` dosyasında **80+ otoriter kaynak** ile referanslanmıştır (Basel, FATF, MASAK, OFAC, FICO, McKinsey, Akbank/Yapı Kredi faaliyet raporları vs.). Sıfır Wikipedia — tümü BIS, EBA, IEEE, Nature gibi kurumlardan.
@@ -347,7 +352,7 @@ Servis durumu kontrolü.
 ```
 
 ### `GET /api/quality-check`
-Envanter sağlık raporu (her model için TR + EN kalite skoru).
+Envanter sağlık raporu — 3 skor: Açıklama Kalitesi (8 kriter), Bulunabilirlik (AI-based), Zenginleştirme.
 
 ### `GET /docs`
 Otomatik üretilen Swagger UI dokümantasyonu.

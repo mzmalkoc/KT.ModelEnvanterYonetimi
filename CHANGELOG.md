@@ -132,8 +132,8 @@
 - Responsive tasarım
 
 ## v0.1.2
-- Self-validation katmanı (quality.py)
-- 4 kriter (uzunluk, aksiyon fiili, veri kaynağı, sonuç)
+- Self-validation katmanı (quality.py, başlangıçta 4 kriter)
+- Uzunluk, aksiyon fiili, veri kaynağı, sonuç (v0.2.17'de 8 kritere + AI findability'ye genişletildi)
 - Envanter kalite skorlama (0-100)
 
 ## v0.1.1

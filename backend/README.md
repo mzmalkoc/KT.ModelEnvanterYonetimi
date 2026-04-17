@@ -167,17 +167,23 @@ Returns all 30 models with full details (including `keywords_tr`, `keywords_en`,
 
 ### `GET /api/quality-check`
 
-Self-validation. Scores each TR + EN description on 4 axes (25 pts each, total 100):
-- Length (50-80 words ideal)
-- Action verb present (`tahmin`, `predict`, `detect`, ...)
-- Data source mentioned (`müşteri`, `customer`, `transaction`, ...)
-- Outcome mentioned (`skor`, `score`, `decision`, ...)
+3-Skorlu kalite sistemi. Her model 3 ayrı metrikle değerlendirilir:
+
+**Skor 1 — Açıklama Kalitesi (8 kriter, toplam 100pt):**
+- Uzunluk (13pt), Aksiyon fiili (13pt), Veri kaynağı (13pt), Sonuç/karar (13pt)
+- Algoritma/teknik (12pt), Düzenleyici referans (12pt), İş değeri (12pt), Hedef kullanıcı (12pt)
+
+**Skor 2 — Bulunabilirlik (AI-based, 3 kriter, toplam 100pt):**
+- İsim-açıklama uyumu (40pt), Ayırt edicilik (35pt), TR-EN tutarlılık (25pt)
+
+**Skor 3 — Zenginleştirme (3 kriter, toplam 100pt):**
+- Keyword zenginliği (40pt, ≥40 ideal), Kaynak sayısı (35pt, ≥5 ideal), Standart (25pt, ≥5 ideal)
 
 ```json
 {
-  "summary": { "total": 30, "excellent": 17, "good": 12, "needs_improvement": 1, "average_score": 82 },
+  "summary": { "total": 30, "excellent": 0, "good": 25, "needs_improvement": 5, "avg_description": 62, "avg_findability": 84, "average_enrichment": 63 },
   "models": [
-    { "no": 1, "name_tr": "...", "name_en": "...", "score_tr": 90, "score_en": 90, "issues_tr": [...], "issues_en": [...] }
+    { "no": 1, "name_tr": "...", "name_en": "...", "description_quality": 71, "findability_score": 90, "enrichment_score": 74, "description_issues": [...], "findability_issues": [...], "enrichment_issues": [...] }
   ]
 }
 ```
@@ -226,7 +232,7 @@ backend/
 ├── main.py              # FastAPI app + lifespan (v2.0.0)
 ├── embeddings.py        # Multi-view encoder + BM25 + cross-encoder loader
 ├── similarity.py        # 3-stage pipeline + score blending
-├── quality.py           # Self-validation engine
+├── quality.py           # 3-Skorlu kalite sistemi (8 kriter + AI findability + enrichment)
 ├── schemas.py           # Pydantic request/response models
 ├── ab_test.py           # A/B comparison test script
 ├── requirements.txt
