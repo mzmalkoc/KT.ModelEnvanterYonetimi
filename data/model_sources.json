@@ -1,0 +1,430 @@
+{
+  "1": [
+    {
+      "title": "FICO Score Types - myFICO",
+      "url": "https://www.myfico.com/credit-education/credit-scores/fico-score-versions"
+    },
+    {
+      "title": "FICO Score Official Product Page - FICO",
+      "url": "https://www.fico.com/en/products/fico-score"
+    },
+    {
+      "title": "What is a FICO Score? - CFPB",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-fico-score-en-1883/"
+    }
+  ],
+  "2": [
+    {
+      "title": "Probability of Default - Abrigo",
+      "url": "https://www.abrigo.com/blog/blog-probability-of-default/"
+    },
+    {
+      "title": "Revised Credit Risk Framework (IRB) - BIS",
+      "url": "https://www.bis.org/fsi/fsisummaries/rcrf.htm"
+    },
+    {
+      "title": "Credit Risk Modelling: PD, LGD, EAD - Medium",
+      "url": "https://medium.com/@sevdabildik44/credit-risk-modelling-50f1d2955500"
+    }
+  ],
+  "3": [
+    {
+      "title": "Guidance on LGD Estimation - BIS Basel Committee",
+      "url": "https://www.bis.org/publ/bcbs115.htm"
+    },
+    {
+      "title": "Exposure at Default (EAD) - Corporate Finance Institute",
+      "url": "https://corporatefinanceinstitute.com/resources/commercial-lending/exposure-at-default-ead/"
+    },
+    {
+      "title": "An option theoretic model for ultimate loss-given-default - BIS",
+      "url": "https://www.bis.org/publ/bppdf/bispap58k.pdf"
+    }
+  ],
+  "4": [
+    {
+      "title": "Guidelines on PD and LGD Estimation - EBA",
+      "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/model-validation/guidelines-pd-estimation-lgd"
+    },
+    {
+      "title": "EAD Overview - Corporate Finance Institute",
+      "url": "https://corporatefinanceinstitute.com/resources/commercial-lending/exposure-at-default-ead/"
+    },
+    {
+      "title": "Exposure at Default Models - Springer",
+      "url": "https://link.springer.com/chapter/10.1057/9781137436962_7"
+    }
+  ],
+  "5": [
+    {
+      "title": "Credit Scoring Models: FICO, VantageScore - Debt.org",
+      "url": "https://www.debt.org/credit/report/scoring-models/"
+    },
+    {
+      "title": "Basel III High-level Summary - BIS",
+      "url": "https://www.bis.org/bcbs/publ/d424_hlsummary.pdf"
+    },
+    {
+      "title": "Scoring and Modeling - FDIC Credit Card Activities Manual",
+      "url": "https://www.fdic.gov/credit-card-activities-manual/chapter-viii-scoring-and-modeling"
+    }
+  ],
+  "6": [
+    {
+      "title": "Banking Risk Management (PD, EAD, LGD) - Roopya",
+      "url": "https://roopya.money/banking-risk-management/"
+    },
+    {
+      "title": "Basel III: Finalising Post-Crisis Reforms - BIS",
+      "url": "https://www.bis.org/bcbs/publ/d424.pdf"
+    },
+    {
+      "title": "Behavioral Scorecard with Machine Learning Components - Finalyse",
+      "url": "https://www.finalyse.com/blog/behavioral-scorecard-with-machine-learning-components"
+    }
+  ],
+  "7": [
+    {
+      "title": "Basel III Finalising Reforms - BIS",
+      "url": "https://www.bis.org/bcbs/publ/d424_hlsummary.pdf"
+    },
+    {
+      "title": "Banking Risk Management - Roopya",
+      "url": "https://roopya.money/banking-risk-management/"
+    },
+    {
+      "title": "Debt Collection Scoring Models With Machine Learning - GDS Link",
+      "url": "https://www.gdslink.com/debt-collection-scoring/"
+    }
+  ],
+  "8": [
+    {
+      "title": "AI Fraud Detection in Banking - IBM",
+      "url": "https://www.ibm.com/think/topics/ai-fraud-detection-in-banking"
+    },
+    {
+      "title": "Enhancing Fraud Detection - Springer",
+      "url": "https://link.springer.com/article/10.1007/s10614-025-11071-3"
+    },
+    {
+      "title": "ML for Fraud Detection - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772662223000036"
+    }
+  ],
+  "9": [
+    {
+      "title": "Hybrid Fraud Detection - Nature Scientific Reports",
+      "url": "https://www.nature.com/articles/s41598-026-42891-4"
+    },
+    {
+      "title": "AI Fraud Detection in Banking - IBM",
+      "url": "https://www.ibm.com/think/topics/ai-fraud-detection-in-banking"
+    },
+    {
+      "title": "Financial fraud detection using graph neural networks: A systematic review - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417423026581"
+    }
+  ],
+  "10": [
+    {
+      "title": "Behavioral Biometrics - BioCatch",
+      "url": "https://www.biocatch.com/blog/what-is-behavioral-biometrics"
+    },
+    {
+      "title": "Behavioral Biometrics for Fraud Prevention - Feedzai",
+      "url": "https://www.feedzai.com/blog/behavioral-biometrics-next-generation-fraud-prevention/"
+    },
+    {
+      "title": "Device Fingerprinting - Callsign",
+      "url": "https://www.callsign.com/knowledge-insights/preventing-fraud-with-device-fingerprinting"
+    }
+  ],
+  "11": [
+    {
+      "title": "FATF Recommendations",
+      "url": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html"
+    },
+    {
+      "title": "MASAK - Genel Bilgi",
+      "url": "https://masak.hmb.gov.tr/aklama-sucu-genel-bilgi"
+    },
+    {
+      "title": "5549 Sayılı Kanun - MASAK",
+      "url": "https://masak.hmb.gov.tr/5549-sayili-suc-gelirlerinin-aklanmasinin-onlenmesi-hakkinda-kanun-2/"
+    }
+  ],
+  "12": [
+    {
+      "title": "OFAC Sanctions List Search Tool",
+      "url": "https://ofac.treasury.gov/sanctions-list-search-tool"
+    },
+    {
+      "title": "How to Search OFAC Sanctions Lists",
+      "url": "https://ofac.treasury.gov/faqs/topic/1636"
+    },
+    {
+      "title": "Assessing OFAC Name Matches (Fuzzy)",
+      "url": "https://ofac.treasury.gov/faqs/topic/1591"
+    },
+    {
+      "title": "Complete Guide to Sanctions Screening - Salv",
+      "url": "https://salv.com/blog/sanctions-screening-guide/"
+    }
+  ],
+  "13": [
+    {
+      "title": "Quantum Leap in Banking - McKinsey",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/the-quantum-leap-in-banking-redefining-financial-performance"
+    },
+    {
+      "title": "Bank Customer Churn Prediction - IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9315761/"
+    },
+    {
+      "title": "Improving Bank Churn Prediction - Nature",
+      "url": "https://www.nature.com/articles/s41598-025-23867-2"
+    }
+  ],
+  "14": [
+    {
+      "title": "Calculating CLV for Banks",
+      "url": "https://www.clv-calculator.com/calculating-value-for-banks/"
+    },
+    {
+      "title": "CLV in Banking - ABN AMRO",
+      "url": "https://medium.com/abn-amro-developer/customer-lifetime-value-in-banking-da6713367fdd"
+    },
+    {
+      "title": "Modelling CLV in Retail Banking - arXiv",
+      "url": "https://arxiv.org/pdf/2304.03038"
+    }
+  ],
+  "15": [
+    {
+      "title": "RFM Customer Segmentation in Banking - SouthState",
+      "url": "https://southstatecorrespondent.com/banker-to-banker/bank-marketing/how-to-use-rfm-customer-segmentation-analysis-in-banking/"
+    },
+    {
+      "title": "Segmenting Bank Customers via RFM - arXiv",
+      "url": "https://arxiv.org/pdf/2008.08662"
+    },
+    {
+      "title": "RFM and K-Means - Kaggle",
+      "url": "https://www.kaggle.com/code/jianlizhou/customer-segmentation-by-rfm-model-and-k-means"
+    }
+  ],
+  "16": [
+    {
+      "title": "Quantum Leap in Banking (NBA) - McKinsey",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/the-quantum-leap-in-banking-redefining-financial-performance"
+    },
+    {
+      "title": "Churn & NBA in Banking - PI Exchange",
+      "url": "https://www.pi.exchange/use-cases/identifying-propensity-to-churn-in-banking-customers"
+    },
+    {
+      "title": "AI-powered decision making for the bank of the future - McKinsey",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/ai-powered-decision-making-for-the-bank-of-the-future"
+    }
+  ],
+  "17": [
+    {
+      "title": "Quantum Leap in Banking - McKinsey",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/the-quantum-leap-in-banking-redefining-financial-performance"
+    },
+    {
+      "title": "Customer Churn Analysis - SCIRP",
+      "url": "https://www.scirp.org/journal/paperinformation?paperid=134563"
+    },
+    {
+      "title": "Improving the predictive accuracy of the cross-selling of consumer loans using deep learning networks - Springer",
+      "url": "https://link.springer.com/article/10.1007/s10479-023-05209-5"
+    }
+  ],
+  "18": [
+    {
+      "title": "Customer Churn ML Models - SCIRP",
+      "url": "https://www.scirp.org/journal/paperinformation?paperid=134563"
+    },
+    {
+      "title": "CLV Formula - Wall Street Prep",
+      "url": "https://www.wallstreetprep.com/knowledge/lifetime-value-ltv/"
+    },
+    {
+      "title": "Reimagining customer engagement for the AI bank of the future - McKinsey",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/reimagining-customer-engagement-for-the-ai-bank-of-the-future"
+    }
+  ],
+  "19": [
+    {
+      "title": "Conversational AI in Banking - IBM",
+      "url": "https://www.ibm.com/think/topics/conversational-ai-banking"
+    },
+    {
+      "title": "Intent Classification for Bank Chatbots - arXiv",
+      "url": "https://arxiv.org/abs/2410.04925"
+    },
+    {
+      "title": "Hybrid LLM Chat - boost.ai",
+      "url": "https://boost.ai/blog/a-hybrid-llm-chat-experience/"
+    }
+  ],
+  "20": [
+    {
+      "title": "Sentiment Analysis in Banking (BERT) - IEEE",
+      "url": "https://ieeexplore.ieee.org/document/9477890/"
+    },
+    {
+      "title": "Bank Sentiment Analysis - GitHub",
+      "url": "https://github.com/chaimaebouyarmane/Bank-Sentiment-Analysis"
+    },
+    {
+      "title": "Customer Sentiment Analysis Guide - Reve Chat",
+      "url": "https://www.revechat.com/blog/customer-sentiment-analysis/"
+    }
+  ],
+  "21": [
+    {
+      "title": "Sentiment Analysis BERT vs SVM - IEEE",
+      "url": "https://ieeexplore.ieee.org/document/10882851/"
+    },
+    {
+      "title": "Conversational AI in Banking - IBM",
+      "url": "https://www.ibm.com/think/topics/conversational-ai-banking"
+    },
+    {
+      "title": "Top 4 Speech AI Applications Transforming Contact Centers - NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/top-speech-ai-applications-contact-centers/"
+    }
+  ],
+  "22": [
+    {
+      "title": "OCR for KYC Guide - Identomat",
+      "url": "https://www.identomat.com/blog/ocr-kyc-guide"
+    },
+    {
+      "title": "How Banks Use OCR for KYC",
+      "url": "https://surfinmetabharat.com/ocr-for-banking-kyc-onboarding/"
+    },
+    {
+      "title": "Automate KYC Checks with OCR - Klippa",
+      "url": "https://www.klippa.com/en/blog/information/automated-kyc-checks/"
+    },
+    {
+      "title": "OCR for Identity Documents - Sumsub",
+      "url": "https://sumsub.com/ocr/"
+    }
+  ],
+  "23": [
+    {
+      "title": "AI-Powered Complaint Management - IRJMETS",
+      "url": "https://www.irjmets.com/upload_newfiles/irjmets71200031697/paper_file/irjmets71200031697.pdf"
+    },
+    {
+      "title": "Sentiment Analysis for Helpdesk - IEEE",
+      "url": "https://ieeexplore.ieee.org/document/10882851/"
+    },
+    {
+      "title": "Customer Support Ticket Categorization and Prioritization Using NLP - SciTePress",
+      "url": "https://www.scitepress.org/Papers/2025/136404/136404.pdf"
+    }
+  ],
+  "24": [
+    {
+      "title": "ATM Cash Demand Forecasting - arXiv",
+      "url": "https://arxiv.org/abs/2008.10365"
+    },
+    {
+      "title": "Forecasting ATM Cash During COVID-19 - PMC/NIH",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8853245/"
+    },
+    {
+      "title": "ATM Cash Stock Prediction - Sabancı Üniversitesi",
+      "url": "https://research.sabanciuniv.edu/id/eprint/42494/1/10399234.pdf"
+    }
+  ],
+  "25": [
+    {
+      "title": "ATM Cash Demand Forecasting Methods - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417422016888"
+    },
+    {
+      "title": "Time-Series Forecasting for ATM - DiVA Portal",
+      "url": "http://www.diva-portal.org/smash/get/diva2:1986978/FULLTEXT02.pdf"
+    },
+    {
+      "title": "Workforce Optimization for Bank Operation Centers: A Machine Learning Approach - IJIMAI",
+      "url": "https://www.ijimai.org/index.php/ijimai/article/view/6125"
+    }
+  ],
+  "26": [
+    {
+      "title": "Basel III: Liquidity Coverage Ratio - BIS",
+      "url": "https://www.bis.org/publ/bcbs238.pdf"
+    },
+    {
+      "title": "LCR and Corporate Liquidity - Federal Reserve",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-liquidity-coverage-ratio-and-corporate-liquidity-management-20200226.html"
+    },
+    {
+      "title": "LCR, NSFR and LR Overview - PwC/ICMA",
+      "url": "https://www.icmagroup.org/assets/documents/Events/test/20%20-%20ICMA%20Presentation%20-%20Liquidity%20&%20Leverage_v1.pdf"
+    }
+  ],
+  "27": [
+    {
+      "title": "Basel III Finalising Reforms (OpRisk SMA) - BIS",
+      "url": "https://www.bis.org/bcbs/publ/d424_hlsummary.pdf"
+    },
+    {
+      "title": "Basel III Monitoring - BIS",
+      "url": "https://www.bis.org/press/p251023.htm"
+    },
+    {
+      "title": "The Internal Ratings-Based Approach - BIS",
+      "url": "https://www.bis.org/publ/bcbsca05.pdf"
+    }
+  ],
+  "28": [
+    {
+      "title": "Market Risk Terminology (VaR) - BIS Basel Framework",
+      "url": "https://www.bis.org/basel_framework/chapter/MAR/10.htm"
+    },
+    {
+      "title": "VaR Models in Finance - ECB",
+      "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp075.pdf"
+    },
+    {
+      "title": "Monte Carlo VaR Under Basel III - MDPI",
+      "url": "https://www.mdpi.com/2227-9091/13/8/146"
+    }
+  ],
+  "29": [
+    {
+      "title": "Machine Learning for Trading - GitHub (Jansen)",
+      "url": "https://github.com/stefan-jansen/machine-learning-for-trading"
+    },
+    {
+      "title": "Deep RL for High Frequency Trading - arXiv",
+      "url": "https://arxiv.org/abs/2101.07107"
+    },
+    {
+      "title": "RL Framework for Quantitative Trading - arXiv",
+      "url": "https://arxiv.org/html/2411.07585v1"
+    }
+  ],
+  "30": [
+    {
+      "title": "Robo-Advisors: Portfolio Management - Yale",
+      "url": "https://economics.yale.edu/sites/default/files/2023-01/Jonathan_Lam_Senior%20Essay%20Revised.pdf"
+    },
+    {
+      "title": "What Drives Robo-Advice? - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0927539824001087"
+    },
+    {
+      "title": "Robo-Advisor Portfolio Management - Cutter",
+      "url": "https://www.cutter.com/article/how-robo-advisors-manage-investment-portfolios-495656"
+    }
+  ]
+}
